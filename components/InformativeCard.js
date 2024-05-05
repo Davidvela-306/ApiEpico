@@ -3,9 +3,9 @@ import defragmentData from "../utils/defragmentData.js";
 
 function InformativeCard(inputImage) {
   const globalContainer = document.getElementById("root");
-  globalContainer.className = "container-md text-center .d-flex";
+  globalContainer.className = "container-md text-center ";
   const tarjeta = document.createElement("div");
-  tarjeta.className = "row row-cols-4 d-flex justify-content-center";
+  tarjeta.className = "row justify-content-center m-5";
 
   fetchData(inputImage)
     .then((data) => {
@@ -25,7 +25,7 @@ function InformativeCard(inputImage) {
         const individualContainer = document.createElement("div");
         //   individualContainer.style = "padding: 20px; margin: 1px;";
         individualContainer.appendChild(image);
-        individualContainer.className = "card p-3 m-3";
+        individualContainer.className = "card p-3 m-3 col-md-4 col-xs";
         //agregar paragraph a tarjeta
         const textContainer = document.createElement("div");
         textContainer.className = "card-body";

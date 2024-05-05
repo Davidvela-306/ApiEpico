@@ -16,42 +16,45 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
-    <h1 class="fw-bold text-center">EPIC</h1>
+    <h1 class="fw-bold text-center text-primary m-4">EPIC</h1>
     <p class="text-center">Cámara de imágenes policromáticas de la Tierra</p>
-    <div class="row row-cols-4 d-flex justify-content-center">
-      <button
-        type="button"
-        id="natural"
-        class="btn btn-success col-1"
-        style="--bs-btn-font-size: 1rem; margin: 10px"
-      >
-        Natural
-      </button>
-      <button
-        type="button"
-        id="enhanced"
-        class="btn btn-success col-1"
-        style="--bs-btn-font-size: 1rem; margin: 10px"
-      >
-        Mejorado
-      </button>
-      <button
-        type="button"
-        id="aerosol"
-        class="btn btn-success col-1"
-        style="--bs-btn-font-size: 1rem; margin: 10px"
-      >
-        Aerosol
-      </button>
-      <button
-        type="button"
-        id="cloud"
-        class="btn btn-success col-1"
-        style="--bs-btn-font-size: 1rem; margin: 10px"
-      >
-        Nube
-      </button>
+    <div class="container">
+      <div class="row justify-content-center m-2">
+        <button
+          type="button"
+          id="natural"
+          class="btn btn-success col-md-2 col-xs"
+          style="--bs-btn-font-size: 1rem; margin: 10px"
+        >
+          Natural
+        </button>
+        <button
+          type="button"
+          id="enhanced"
+          class="btn btn-success col-md-2 col-xs"
+          style="--bs-btn-font-size: 1rem; margin: 10px"
+        >
+          Mejorado
+        </button>
+        <button
+          type="button"
+          id="aerosol"
+          class="btn btn-success col-md-2 col-xs"
+          style="--bs-btn-font-size: 1rem; margin: 10px"
+        >
+          Aerosol
+        </button>
+        <button
+          type="button"
+          id="cloud"
+          class="btn btn-success col-md-2 col-xs"
+          style="--bs-btn-font-size: 1rem; margin: 10px"
+        >
+          Nube
+        </button>
+      </div>
     </div>
     <container id="root"></container>
 
