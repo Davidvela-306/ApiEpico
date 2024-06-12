@@ -1,0 +1,64 @@
+{
+  "tours": [
+    {
+      "id": "1",
+      "nombre": "Tour por las Iglesias",
+      "descripcion": "Explora las iglesias históricas más emblemáticas",
+      "tipo": "Exploración",
+      "ciudad": "Cuenca",
+      "fechaInicio": "10/04/2024",
+      "fechaFin": "12/04/2024",
+      "duracion": "2 días",
+      "maxParticipantes": 5,
+      "imagen": "https://i.pinimg.com/736x/c0/c9/f2/c0c9f2827d064ccf0849e9d624b01411.jpg",
+      "precio": 50
+    },
+    {
+      "id": "2",
+      "nombre": "Tour Quilotoa",
+      "descripcion": "Explora la maravillosa laguna del Quilotoa",
+      "tipo": "Volcán",
+      "ciudad": "Latacunga",
+      "fechaInicio": "10/04/2024",
+      "fechaFin": "12/04/2024",
+      "duracion": "2 días",
+      "maxParticipantes": 8,
+      "imagen": "https://i.ytimg.com/vi/OaOQ_uO2VNE/maxresdefault.jpg",
+      "precio": 50
+    }
+  ],
+  "empresas": [
+    {
+      "id": "1",
+      "nombre": "Empresa de Tours A",
+      "descripcion": "Empresa especializada en tours históricos",
+      "ubicacion": "Cuenca"
+    },
+    {
+      "id": "2",
+      "nombre": "Empresa de Tours B",
+      "descripcion": "Empresa especializada en tours de aventura",
+      "ubicacion": "Latacunga"
+    },
+    {
+      "id": "da7df016-23bc-4e4d-8d29-9574b54db954",
+      "nombre": "Empresa de Tours C",
+      "descripcion": "Empresa especializada en tours en selva",
+      "ubicacion": "Imbabura"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "David",
+      "username": "david",
+      "email": "david@gmail.com",
+      "password": "david123"
+    },
+    {
+      "id": "97279c68-2bbf-4e1b-9189-e03fda315739",
+      "password": "$2b$10$7lqIWhon.EzMlYNMrYj5j.daNtWRGRFd/X.G44igpeTj6GnLTjnBW",
+      "username": "davidTest"
+    }
+  ]
+}
